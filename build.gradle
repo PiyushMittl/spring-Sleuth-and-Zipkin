@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.8
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+        mavenLocal()
+    }
+}
+
+allprojects {
+    group "springio"
+}
+
+task start {
+	doLast {
+	    println "I m Gradle"
+	}
+}
+
+
