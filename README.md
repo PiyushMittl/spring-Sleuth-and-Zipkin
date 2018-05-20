@@ -98,7 +98,7 @@ gradle build
 building sleuth application
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im3_building_sleuth.png)
 
-**running sleuth application  **
+**running sleuth application**  
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im4_running_sleuth.png)
 
 
