@@ -98,8 +98,6 @@ gradle build
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im3_building_sleuth.png)
 
 **running sleuth application**  
-```
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im4_running_sleuth.png)
-```
 
 after running you apllication hit some api's sleuth server and track them on zipkin browser console.
