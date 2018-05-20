@@ -14,8 +14,7 @@ Distributed tracing provides a holistic view of requests transiting through mult
 **Tracers –** Tracers records spans and passes context required to connect them into a trace.  
 
 
-#### [Zipkin](https://zipkin.io/)
-Zipkin is a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in microservice architectures. It manages both the collection and lookup of this data. Zipkin’s design is based on the [Google Dapper paper](https://ai.google/research/pubs/pub36356).
+[Zipkin](https://zipkin.io/) is a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in microservice architectures. It manages both the collection and lookup of this data. Zipkin’s design is based on the [Google Dapper paper](https://ai.google/research/pubs/pub36356).
 
 Applications are instrumented to report timing data to Zipkin. The Zipkin UI also presents a Dependency diagram showing how many traced requests went through each application. If you are troubleshooting latency problems or errors, you can filter or sort all traces based on the application, length of trace, annotation, or timestamp. Once you select a trace, you can see the percentage of the total trace time each span takes which allows you to identify the problem application.
 
@@ -62,13 +61,13 @@ open your command prompt got you application folder and run following command
 gradle build
 ```
 
-building zipkin application
+**building zipkin application**  
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im5_building_ziplpkin.png)
 
-running zipkin application  
+**running zipkin application**  
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im6_running_zipkin.png)
 
-screen zipkin application  
+**screen zipkin application**  
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im7_zipkin_server_screen.png)
 
 
@@ -95,11 +94,10 @@ open your command prompt got you application folder and run following command
 gradle build
 ```
 
-building sleuth application
+**building sleuth application**  
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im3_building_sleuth.png)
 
 **running sleuth application**  
-
 
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im4_running_sleuth.png)
 
