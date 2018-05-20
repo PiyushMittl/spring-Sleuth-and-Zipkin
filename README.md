@@ -57,6 +57,23 @@ add blow port to your ***application.properties*** file
 server.port=9411
 ```
 
+open your command prompt got you application folder and run following command
+```
+gradle build
+```
+
+building zipkin application
+![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im5_building_zipkin.png)
+
+running zipkin application  
+![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im6_running_zipkin.png)
+
+screen zipkin application  
+![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im7_zipkin_server_screen.png)
+
+
+
+
 #### Sleuth
 we integrate Sleuth with our services or Controller to track the complex flow. to integrate Sleuth service we have to follow following steps.
 
@@ -81,7 +98,7 @@ gradle build
 building sleuth application
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im3_building_sleuth.png)
 
-running sleuth application
+running sleuth application  
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im4_running_sleuth.png)
 
 
