@@ -14,3 +14,11 @@ Trace – A Trace is an end-to-end latency graph, composed of spans.
 Tracers – Tracers records spans and passes context required to connect them into a trace.
 
 
+#### Zipkin[https://zipkin.io/]
+Zipkin is a distributed tracing system. It helps gather timing data needed to troubleshoot latency problems in microservice architectures. It manages both the collection and lookup of this data. Zipkin’s design is based on the Google Dapper paper[https://ai.google/research/pubs/pub36356].
+
+Applications are instrumented to report timing data to Zipkin. The Zipkin UI also presents a Dependency diagram showing how many traced requests went through each application. If you are troubleshooting latency problems or errors, you can filter or sort all traces based on the application, length of trace, annotation, or timestamp. Once you select a trace, you can see the percentage of the total trace time each span takes which allows you to identify the problem application.
+
+
+we integrate Zipkin with our services or Controller to track the complex flow. to integrate Zipkin service we have to follow following steps.
+
