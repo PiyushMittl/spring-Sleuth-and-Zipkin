@@ -63,7 +63,7 @@ gradle build
 ```
 
 building zipkin application
-![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im5_building_zipkin.png)
+![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im5_building_ziplpkin.png)
 
 running zipkin application  
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im6_running_zipkin.png)
