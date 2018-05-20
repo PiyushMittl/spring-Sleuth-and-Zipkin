@@ -78,7 +78,7 @@ screen zipkin application
 we integrate Sleuth with our services or Controller to track the complex flow. to integrate Sleuth service we have to follow following steps.
 
 create sample application using [spring initializer](https://start.spring.io/).
-![creating application](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im1_create_sleuth.png)
+![creating application](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im2_create_sleuth.png)
 
 add below dependencies to you project.
 
