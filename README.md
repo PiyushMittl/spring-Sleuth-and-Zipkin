@@ -24,7 +24,7 @@ we integrate Zipkin with our services or Controller to track the complex flow. t
 
 create sample application using [spring initializer](https://start.spring.io/) where you will have your controllers.
 
-[creating application](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im1_create_zipkin.png)
+![creating application](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im1_create_zipkin.png)
 
 after importing the project add following dependencies to your project.
 
