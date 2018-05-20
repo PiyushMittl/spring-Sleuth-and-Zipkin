@@ -101,3 +101,16 @@ gradle build
 ![building sleuth](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im4_running_sleuth.png)
 
 after running you apllication hit some api's sleuth server and track them on zipkin browser console.
+
+  
+  
+  
+  
+**Details of a particular service call statistics**  
+![service call statistics](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im9_service_call_statistics.jpg)
+
+
+**One particular transaction overview**  
+![transaction_overview](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im10_transaction_overview.jpg)
+
+
