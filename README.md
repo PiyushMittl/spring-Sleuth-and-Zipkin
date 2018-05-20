@@ -22,7 +22,8 @@ Applications are instrumented to report timing data to Zipkin. The Zipkin UI als
 
 we integrate Zipkin with our services or Controller to track the complex flow. to integrate Zipkin service we have to follow following steps.
 
-create sample application using [spring initializer](https://start.spring.io/) where you will have your controllers. 
+create sample application using [spring initializer](https://start.spring.io/) where you will have your controllers.
+
 [creating application](https://github.com/PiyushMittl/Sleuth-and-Zipkin/blob/master/im1_create_zipkin.png)
 
 after importing the project add following dependencies to your project.
